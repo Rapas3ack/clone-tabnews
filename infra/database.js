@@ -25,6 +25,7 @@ async function getNewClient() {
   });
 
   await client.connect();
+
   return client;
 }
 

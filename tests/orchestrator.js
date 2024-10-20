@@ -15,10 +15,10 @@ async function waitForAllServices() {
       if (response.status !== 200) {
         throw Error();
       }
-    };
-  };
-};
+    }
+  }
+}
 
 export default {
   waitForAllServices,
-}
+};
